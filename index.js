@@ -37,5 +37,5 @@ app.get("/", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     }
 }));
 app.listen(PORT, () => {
-    console.log(`⚡️[server]: Server is running at http://localhost:${PORT}`);
+    console.log(`⚡️[server]: Server is running`);
 });
